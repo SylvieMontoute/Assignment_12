@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML 5, CSS 3, JavaScript,JQuery, AngularJs"/>
+<meta name="description" content="Dynamic web development">
+<meta name="author" content="Sylvain">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Information</title>
+<style>
+</style>
+<link rel="stylesheet" type='text/css' href="styles.css"/>
+</head>
+<body>
+      <nav class="nav1">
+      <ul>
+        <li style="float:left"><a href="registration.html">Register New Client</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+  <section class="row">
+    <nav class='col-4'>
+      <ul>
+        <li><a href="#">Personal Information</a></li>
+        <li><a href="riskfactors.html">Risk Factors Information</a></li>
+        <li><a href="hepb_pregnant_form.html">Hep B Pregnant Women Case Report</a></li>
+        <li><a href="cong_syphilis.html">Congenital Syphilis Case Report</a></li>
+        <li><a href="sti_form.html">Chlamydia & Gonorrhea Case Report</a></li>
+      </ul>
+    </nav>
+    <article class="col-8">
+      <form autocomplete="off" action="" method="post">
+        <label for="firstname"><b>First Name</b></label><br/>
+        <input id="firstname" name="firstname" type="text"/><br/>
+        <label for="middlename"><b>Middle Name</b></label><br/>
+        <input id="middlename" name="middlename" type="text"/><br/>
+        <label for="lastname"><b>Last Name</b></label><br/>
+        <input id="lastname" name="lastname" type="text"/><br/>
+        <label for="uniqueid"><b>Unique ID</b></label><br/>
+        <input id="uniqueid" placeholder="Enter Unique ID"name="uniqueid" type="password" required/><br/>
+        <label for="dob"><b>Date of Birth</b></label><br/>
+        <input id="dob" name="dob" type="number" min="1900" max="2099" step="1" required/><br/>
+        <label for="sex"><b>Sex</b></label><br/>
+          <input name="sex" type="radio" value="female" id="sex"required/>Female<br/>
+          <input name="sex" type="radio" value="male" id="sex"/>Male<br/>
+            <input name="sex" type="radio" value="other" id="sex"/>Other<br/>
+        <label for="gidentity"><b>Gender Identity</b></label><br/>
+          <input name="gidentity" type="radio" value="agender" id="gidentity"required/>Agender<br/>
+          <input name="gidentity" type="radio" value="transgender" id="gidentity"/>Transgender<br/>
+          <input name="gidentity" type="radio" value="gendernc" id="gidentity"/>Gender non-conforming<br/>
+          <input name="gidentity" type="radio" value="nb" id="gidentity"/>Non-binary<br/>
+          <input name="gidentity" type="radio" value="fluid" id="gidentity"/>Gender Fluidr<br/>
+          <input name="gidentity" type="radio" value="variant" id="gidentity"/>Gender Variant<br/>
+          <input name="gidentity" type="radio" value="other" id="gidentity"/>Other<br/>
+          <input name="gidentity" placeholder="Enter Other Gender Identity"type="text" id="gidentity"/><br/>
+          <label for="sexorientation"><b>Sexual Orientation</b></label><br/>
+          <select id="sexorientation" name="sexorientation"><br/>
+            <option selected disabled>[Select One]</option>
+            <option value="heterosexual">Heterosexual</option>
+            <option value="homosexual">Homosexual</option>
+            <option value="bisexual">Bisexual</option>
+            <option value="other">Other</option>
+          </select><br/>
+              <input name="reset" type="reset"/><br/>
+              <input value="Submit" type="submit"/><br/>
+      </form>
+    </article>
+<section>
+</body>
+</html>
