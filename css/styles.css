@@ -109,6 +109,9 @@ section nav li{
   padding: 16px;
   width: 400px;
 }
+input[type=date]{
+  padding: 5px;
+}
 input[type=email], input[type=password] {
   width: 300px;
   padding: 12px 20px;
@@ -143,8 +146,20 @@ table{
   margin-right: auto;
   }
   th, td{
-    padding:10px;
+    padding:5px;
   }
   tr{
     border: 1px solid black;
+  }
+  .input-control input:focus{
+    outline: 0;
+  }
+  .input-control.success input{
+    border-color: #09c372;
+  }
+  .input-control.error input{
+    border-color: #ff3860;
+  }
+  span{
+    color: red;
   }
