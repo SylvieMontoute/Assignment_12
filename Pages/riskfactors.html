@@ -9,8 +9,9 @@
 <title>Risk Factors</title>
 <style>
 </style>
-<link rel="stylesheet" type='text/css' href="styles.css"/>
+<link rel="stylesheet" type='text/css' href="../css/styles.css"/>
 </head>
+<script src="../scripts/drag.js"></script>
 <body>
       <nav class="nav1">
       <ul>
@@ -30,9 +31,20 @@
       </ul>
     </nav>
     <article class="col-8">
+      <h3>Risk Factors Form</h3>
       <form autocomplete="off" action="" method="post">
-        <label for="riskfactor"><b>Risk factor form goes here</b></label><br/>
-      </form>
+      <h4>In the last 12 months, drag the options that apply</h4>
+      <div id= "container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div id= "dragitem1" draggable="true" ondragstart="drag(event)">Had sex with males</div>
+      <div id= "dragitem2" draggable="true" ondragstart="drag(event)">Had sex with females</div>
+      <div id= "dragitem3" draggable="true" ondragstart="drag(event)">Victim of sexual assault</div>
+      <div id= "dragitem4" draggable="true" ondragstart="drag(event)">homeless</div>
+      <div id= "dragitem5" draggable="true" ondragstart="drag(event)">Incarcerated</div>
+      <div id= "dragitem6" draggable="true" ondragstart="drag(event)">Possible exposure</div>
+      <div id= "dragitem7" draggable="true" ondragstart="drag(event)">Routine screening</div>
+      </div>
+      <div id= "container2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </form>
     </article>
 <section>
 </body>

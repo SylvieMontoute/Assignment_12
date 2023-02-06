@@ -163,3 +163,18 @@ table{
   span{
     color: red;
   }
+  #container1, #container2{
+  float:left;
+  width:400px;
+  height: 350px;
+  margin: 10px;
+  border: 5px outset blue;
+  border-radius: 10px;
+    }
+  #dragitem1, #dragitem2, #dragitem3, #dragitem4, #dragitem5, #dragitem6, #dragitem7{
+    background-color: gray;
+    height: 40px;
+    width:300px;
+    border: 2px solid green;
+    margin:5px;
+  }
